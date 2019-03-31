@@ -38,4 +38,5 @@ def apply_clearance(cart)
       attributes[:price] == attributes[:price] * 0.8
     end
   end
+  cart
 end
