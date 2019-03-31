@@ -48,3 +48,4 @@ def checkout(cart, coupons)
   total = 0 
   last_cart.each do |item, attributes|
     total += attributes[:price] * attributes[:count]
+    total = total * 0.9 if 
