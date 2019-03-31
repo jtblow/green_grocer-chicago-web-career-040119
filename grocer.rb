@@ -33,3 +33,9 @@ end
 end
 
 def apply_clearance(cart)
+  cart.each do |item, attributes|
+    if attributes[:clearance] == true 
+      attributes[:price] == attributes[:price] * .8
+    end
+  end
+end
