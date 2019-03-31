@@ -1,4 +1,5 @@
 def consolidate_cart(cart)
+  count = 0 
   cart.each do |item, attributes|
 end
 
