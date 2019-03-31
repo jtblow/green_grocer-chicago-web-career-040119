@@ -4,7 +4,7 @@ def consolidate_cart(cart)
   cart.each do |item, attributes|
     if item = i 
       count += 1 
-      cart[item][attributes][:count] = count
+      [attributes][:count] = count
     end
   end
     
